@@ -42,11 +42,13 @@ Connecting the rover to the python webapp or mission planner
     * Run the python webapp (Feel free to change the script to your needs)
 5. You should now have access to the python web app or mission planner. `Note`: you can connect both the webapp and mission planner at the same time 
 
-Switching to manual/guided modeManual mode:
-1. To manually control the rover you must have connected the rover to mission planner first, if you haven’t follow the steps above
-2. Go into a separate instance of the rover terminal and type
-3. Then connect your controller to mission planner by clicking joystick, you can also change the controls at the same time
-4. Then click arm and move the rover
+Switching to manual/guided mode 
+
+Manual mode:
+1. To manually control the rover you must have connected the rover to mission planner first, if you haven’t, follow the steps above
+2. Go into a separate instance of the rover terminal and type `missing text`
+3. Then connect your controller to mission planner by clicking `joystick`. You can also change the controls at the same time
+4. Then click `arm` and move the rover
 
 Guided mode:
 1. To move rover to a set location starting ardupilot and mavros
@@ -58,9 +60,9 @@ Guided mode:
     ```
     rosservice call /mavros/set_mode "custom_mode: 'GUIDED'"
     ```
-3. Move the rover to the set coordinates
+3. Move the rover to the set coordinates `missing text`
 
-Finally you can check what mode the rover is in by typing 
+Finally, you can check what mode the rover is in by typing 
 ```
 rostopic echo /mavros/state
 ```
